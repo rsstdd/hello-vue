@@ -14,9 +14,9 @@ module.exports = {
   },
   plugins: ['vue'],
   rules: {
+    indent: [2, 2],
     'import/no-unresolved': 'off',
     'react/prop-types': 'off',
-    'react/jsx-pascal-case': 'off',
     'import/order': 'off',
     'babel/camelcase': 'off',
     'jsx-a11y/label-has-for': 'off',

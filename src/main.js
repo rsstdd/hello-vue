@@ -1,7 +1,8 @@
 import Vue from 'vue';
-import App from './App.vue';
+import ToDo from './ToDo.vue';
+
+Vue.config.productionTip = false;
 
 new Vue({
-  el: '#app',
-  render: h => h(App),
-});
+  render: h => h(ToDo),
+}).$mount('#app');
